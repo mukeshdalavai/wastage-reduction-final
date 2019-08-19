@@ -2,7 +2,7 @@ Process To Start the Application.
 
 Pre-Requisites : UBUNTU 18.04/16.04
 
-								--- SETUP ENVIRONMENT ---
+						--- SETUP ENVIRONMENT ---
 
 1.) Install Git
 
@@ -27,10 +27,10 @@ Pre-Requisites : UBUNTU 18.04/16.04
 	$ sudo curl -L "https://github.com/docker/compose/releases/download/1.24.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 	$ sudo chmod +x /usr/local/bin/docker-compose
 	$ docker-compose --version
+.
 
 
-
-								---- COMMANDS ----
+						---- COMMANDS ----
   
 1.) Open ubuntu terminal in any folder
 
