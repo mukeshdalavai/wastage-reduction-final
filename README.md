@@ -1,14 +1,36 @@
-[![Build Status](https://travis-ci.org/stackroute/ibm-wave5-wastage-reduction.svg?branch=v1.0.1)](https://travis-ci.org/stackroute/ibm-wave5-wastage-reduction)
-[![codecov](https://codecov.io/gh/stackroute/ibm-wave5-wastage-reduction/branch/v1.0.1/graph/badge.svg)](https://codecov.io/gh/stackroute/ibm-wave5-wastage-reduction)
-![](https://img.shields.io/codecov/c/github/stackroute/ibm-wave5-wastage-reduction/v1.0.1.svg?style=flat)
+Process To Start the Application.
 
-![](https://img.shields.io/github/issues/stackroute/ibm-wave5-wastage-reduction.svg?style=popout)
+Pre-Requisites : UBUNTU 18.04/16.04
 
-![](https://img.shields.io/github/contributors/stackroute/ibm-wave5-wastage-reduction.svg?style=popout)
-![](https://img.shields.io/github/last-commit/stackroute/ibm-wave5-wastage-reduction/v1.0.1.svg?style=popout)
+												--- SETUP ENVIRONMENT ---
 
-![](https://img.shields.io/github/repo-size/stackroute/ibm-wave5-wastage-reduction.svg?style=popout)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+1.) Install Git
+	$ sudo apt update
+	$ sudo apt install git
+	$ git --version
 
-****Running the System****
-Run ```mvn clean compile package``` on all the services
+2.) Install MAVEN
+	$ sudo apt update
+	$ sudo apt install maven
+	$ maven --version
+
+3.) Install Docker
+	$ sudo apt-get update
+	$ sudo apt install docker.io
+	$ docker --version
+
+4.) Install Docker-compose
+	$ sudo curl -L "https://github.com/docker/compose/releases/download/1.24.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+	$ sudo chmod +x /usr/local/bin/docker-compose
+	$ docker-compose --version
+
+												---- COMMANDS ----
+  
+1.) Open ubuntu terminal in any folder
+
+	$ git clone https://github.com/mukeshdalavai/wastage-reduction-final.git
+
+2.) Nvigate into wastage-reduction-final folder
+
+	$ mvn clean package -DskipTests
+	$ sudo docker-compose up --build
