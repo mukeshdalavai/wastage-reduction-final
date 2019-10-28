@@ -53,12 +53,19 @@ Pre-Requisites : UBUNTU 18.04/16.04
 	$ sudo docker-compose up --build
 	
   						
-						    <--URLS-->
+						   
+						   
+.						   <--URLS-->
 
 Web Application -> localhost:4200
+
 Neo4J console -> localhost:7474/browser
+
 RabbitMQ console -> localhost:15672
+
 Eureka console -> localhost:8761
+
 API call to initiate Routing Protocol -> localhost:8080/routing-service/startRouting
+
 API call to reset Stats -> localhost:8080/routing-service/resetStats
 
