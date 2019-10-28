@@ -1,4 +1,4 @@
-					------Working Protocols-----
+					    ------WORKING PROCEDURE-----
 -> Every Noon (12-4) --> Restaurants update their respective food availability.
 		  --> Charities may update their food requirement if incase there are any modifications.
 		  --> Delivery Boys will update their Availability status and Live Location.
@@ -47,7 +47,18 @@ Pre-Requisites : UBUNTU 18.04/16.04
 
 	$ git clone https://github.com/mukeshdalavai/wastage-reduction-final.git
 
-2.) Nvigate into wastage-reduction-final folder
+2.) Navigate into wastage-reduction-final folder
 
 	$ mvn clean package -DskipTests
 	$ sudo docker-compose up --build
+	
+  						
+						    <--URLS-->
+
+Web Application -> localhost:4200
+Neo4J console -> localhost:7474/browser
+RabbitMQ console -> localhost:15672
+Eureka console -> localhost:8761
+API call to initiate Routing Protocol -> localhost:8080/routing-service/startRouting
+API call to reset Stats -> localhost:8080/routing-service/resetStats
+
