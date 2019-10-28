@@ -5,7 +5,7 @@
 		  
  -> An automatic API call is made at 4.0PM and the ROUTING PROTOCOL is initiated which maps Restaurants, Charities and DeliveryBoys, Followed by Optimal Route Allocation to Delivery Boys (Restaurants to pick-up and Charity to deliver).
  
- -> After Succesful Delivery of food Charities has the luxury to Rate the food received to ensure donation of quality food.
+ -> After Succesful Delivery of food, Charities has the luxury to Rate the food received to ensure donation of quality food.
  
 -> Upon completion of all transactions, another API Call is made which RESET'S the entire application making it ready for the next Noon.
 
