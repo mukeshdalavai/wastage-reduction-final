@@ -12,7 +12,7 @@
 Process To Start the Application.
 
 Pre-Requisites : UBUNTU 18.04/16.04
-
+	       : Java 11
 						--- SETUP ENVIRONMENT ---
 
 1.) Install Git
