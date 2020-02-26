@@ -147,7 +147,7 @@ services:
 #     - ../data/mysql:/var/lib/mysql
 
   mongo:
-    image: mongo
+    image: mongo:3.6
     restart: always
     hostname: localhost
     network_mode: host
