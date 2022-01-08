@@ -1,3 +1,7 @@
+Architecture and high level workflow link
+https://ibb.co/jJjpJn5
+			    
+					    
 					    ------WORKING PROCEDURE-----
 -> Every Noon (12-4) --> Restaurants update their respective food availability.
 		  --> Charities may update their food requirement if incase there are any modifications.
@@ -68,4 +72,5 @@ Eureka console -> localhost:8761
 API call to initiate Routing Protocol -> localhost:8080/routing-service/startRouting
 
 API call to reset Stats -> localhost:8080/routing-service/resetStats
+
 
